@@ -11,6 +11,7 @@ void GameClearScene::Initialize() {
 	dxCommon_ = DirectXCommon::GetInstance();
 	input_ = Input::GetInstance();
 	audio_ = Audio::GetInstance();
+
 }
 
 void GameClearScene::Update() {
